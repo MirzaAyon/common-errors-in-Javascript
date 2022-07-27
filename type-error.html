@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Type Error</h1>
+    <script>
+        // .forEach()
+        // .map()
+        // .find()
+        // .filter()
+        //egula array method egula ke object er upr chalate gele type error dibe 
+        //undefined/null er length ber korte gele type error hbe 
+
+        // const myName = { fistName: "Ayon", LastName: "Plabon" };
+
+        // console.log(typeof myName);
+
+        const myName = ["Ayon", "Plabon"];
+
+        myName.forEach((element) => console.log(element));
+        //eta array er upr possible but uporer obj er upr possible na
+        //ekta type er upr arekta type chapae dewar try korle eke bole type error
+        a = null;
+        console.log(a.length);
+    </script>
+</body>
+
+</html>
